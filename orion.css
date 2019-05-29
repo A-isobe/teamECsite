@@ -1,0 +1,105 @@
+
+body{
+	margin: 0;
+	z-index: 100;
+	background-image: url(../images/book.jpg);
+}
+.main-container {
+		position:relative;
+		top:90px;
+		z-index:1;
+		width:90%;
+		height:100%;
+		margin-left:5%;
+		margin-right:5%;
+		text-align:center;
+}
+
+.page-title {
+		width: 30%;
+		margin-left:5%;
+		margin-right:5%;
+		border-top: 2px solid #000;
+		border-bottom: 2px solid #000;
+		padding-top:1.5%;
+		padding-bottom:1.5%;
+		margin:0 auto;
+		text-align:center;
+		}
+
+		.page-title h1{
+		margin:0;
+	}
+
+#contents {
+	margin: 0 auto;
+	width: 90%;
+	height : auto;
+	z-index: 20;
+	background:#fff;
+	padding: 5% 0 5% 0;
+	margin-bottom: 10px;
+	}
+
+.btn-1{
+	margin-left:3rem;
+}
+.submit_btn_box{
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 1.5%;
+}
+.submit_btn {
+	display: block;
+	position: relative;
+	padding: 0.5em 1em;
+	text-decoration:none;
+	border-radius:30px;
+	width:100px;
+	height : 40px;
+	margin-top : -5px;
+	margin-left : 6px;
+	font-size:10px;
+	text-align:center;
+	color: #999;
+	background: #FCFCFC;
+	border-radius: 30px;
+	border: 1px solid #EDEDED;
+	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');
+}
+.submit_btn:hover {
+	 cursor: pointer;
+	 background-color: #fff;
+	border:5px double #696969;
+	color: #696969;
+	font-wight:bold;
+
+}
+.btn-field{
+	    display: block;
+	    position: relative;
+	    padding: 1rem 2rem;
+	    text-decoration: none;
+	    border-radius: 30px;
+	    width: 60%;
+	    height: 100%;
+	    margin: 0 auto;
+	    font-size: 18px;
+	    text-align: center;
+	    font-weight: 700;
+	    color: #fff;
+	    background: #000;
+	    border-radius: 30px;
+	    border: 1px solid #EDEDED;
+}
+.btn-field:hover{
+	opacity:0.8!important;
+	 cursor: pointer;
+}
+.btn-field:active{
+    opacity: 0.5;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+    box-shadow: 0 1px 0 #000;
+}
